@@ -7,8 +7,10 @@ html, body {
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
-}
 
+background-color: yellow
+
+}
 
 main {
     margin: 0 auto;
@@ -37,8 +39,10 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float: left;
+    float: right;
     margin-right: 15px;
+    width: 250px;
+    height:80%
 }
 
 .smalltext {
