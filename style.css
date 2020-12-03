@@ -64,15 +64,10 @@ a:hover {
 nav ul {
     list-style-type: none;
     margin: auto;
-    position: center;
-    background-color: #dddddd;
-    overflow: auto;
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/281c801f-5592-4d99-b195-671abd34121a/d8ar6p-5706a03c-611e-48f1-9f16-76ca8e57646f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMjgxYzgwMWYtNTU5Mi00ZDk5LWIxOTUtNjcxYWJkMzQxMjFhXC9kOGFyNnAtNTcwNmEwM2MtNjExZS00OGYxLTlmMTYtNzZjYThlNTc2NDZmLnBuZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl19.S16YC2m6DIQs9GiuOfNmJtGAEyo0NFeWjQrdpTW_1uk);
-    background-repeat: no-repeat;
-    background-size:100% 100%;
-    background-position: center;
-    height: 100px;
-    font-size: 25px
+    padding: 0;
+    overflow: hidden;
+    font-size:15px;
+    background-color:black
     
 }
 
@@ -89,11 +84,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa 
+color: orange;
 }
 
 nav li a.active {
-    background-color: skyblue;
+ background-color: orange;
 }
 
 
