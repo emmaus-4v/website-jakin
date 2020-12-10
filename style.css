@@ -3,11 +3,9 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-image: url('afbeeldingen/background.jpg');
+    background-color: yellow;
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 
 main {
@@ -66,7 +64,6 @@ nav ul {
     overflow: hidden;
     font-size:15px;
     background-color:black;
-    
 }
 
 nav ul li {
