@@ -3,9 +3,10 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: yellow;
+    background-image:url("afbeeldingen/background.jpg");
     color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    background-size:200%;
+    background-repeat: no-repeat;
 }
 
 main {
@@ -39,7 +40,15 @@ img.zweefLinks {
     float: right;
     margin-left: 5px;
     width: 200px;
-    height:80%
+    height:80%;
+}
+
+img.zweefLinks2 {
+    float: left;
+    width: 200px;
+    height:80%;
+    margin-right:5px;
+    margin-top:5px;
 }
 
 .smalltext {
@@ -58,13 +67,14 @@ a:hover {
 
 /* navigatiebalk */
 nav ul {
-    list-style-type: none;
+     list-style-type: none;
     margin: auto;
     padding: 0;
     overflow: hidden;
     font-size:15px;
     background-color:black;
-}
+    }
+
 
 nav ul li {
     float: left;
