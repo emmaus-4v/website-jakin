@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     background-image:url("afbeeldingen/background.jpg");
     color: #303030;
-    background-size:200%;
+    background-size:140%;
     background-repeat: no-repeat;
 }
 
@@ -23,9 +23,8 @@ article {
 
 header {
     color: skyblue;
-    text-align: center;
-}
-
+    text-align: left;
+    }
 
 
 footer {
@@ -50,6 +49,10 @@ img.zweefLinks2 {
     margin-right:5px;
     margin-top:5px;
 }
+  
+.navigatie{ float:left;
+width:100px; height:300%; margin:20px;} 
+ 
 
 .smalltext {
     font-size: 0.7em;
@@ -68,7 +71,7 @@ a:hover {
 /* navigatiebalk */
 nav ul {
      list-style-type: none;
-    margin: auto;
+    margin: 0px;
     padding: 0;
     overflow: hidden;
     font-size:15px;
@@ -77,19 +80,19 @@ nav ul {
 
 
 nav ul li {
-    float: left;
+    float: center;
 }
 
 nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding:14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-color: orange;
+color: rgb(255, 238, 0);
 }
 
 nav li a.active {
