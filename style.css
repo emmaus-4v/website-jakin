@@ -45,6 +45,8 @@ header {
             height: 82px;
        padding:10px;}
 
+
+
 .feit2{ font-size:13px; float: right;
     overflow: auto; 
  background: rgba(255, 136, 0, 0.580);
@@ -73,8 +75,25 @@ header {
     transform: translateX(600px) }
 100% {
     transform: translateX(0px)}}
-            
 
+.color-animation{
+  animation-name: colors;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+  25% {color:blue;}
+  50% {color:rgb(255, 145, 0);}
+  75% {color: green;}
+  100% {color: red}}
+            
+.vriendengroep{ 
+ font-weight: bold;
+ text-align: center;
+}
 
  img.zweefLinks {
     float: right;
@@ -89,7 +108,20 @@ img.zweefLinks2 {
     height:80%;
     margin-right:5px;
 }
-  
+
+img.zweefLinks3 {
+    float: left;
+    width: 150px;
+    height:80%;
+    margin-right:25px;}
+
+img.zweefLinks4 {
+    float: right;
+    margin-left: 25px;
+    width: 180px;
+    height:80%;
+}
+
 .leuke-feitjes{
 text-align: center;
 }
@@ -98,14 +130,17 @@ width:100px; height:300%; margin:20px;}
  
 .hoop{font-weight: bold;}
 
+.linkjes{font-size: 20px;}
 
 .smalltext {
     font-size: 0.7em;
 }
 
+
 a {
-    color: skyblue;
+    color: rgb(230, 84, 84);
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
