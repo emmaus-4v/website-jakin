@@ -3,10 +3,11 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-image:url("afbeeldingen/background.jpg");
-    color: #303030;
-    background-size:140%;
+    background-image:url ("afbeeldingen/background.jpg");
+    background-color: #ffe600;
+    background-size: 1;
     background-repeat: no-repeat;
+
 }
 
 main {
@@ -18,16 +19,18 @@ main {
 
 article {
     text-align: justify;
+    font-family: cursive;
 }
 
 
 header {
-    color: skyblue;
+    color: rgb(101, 99, 248);
     text-align: left;
-    }
-
-
-footer {
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+ footer {
     text-align: center;
     padding-bottom: 10px;
 }
@@ -35,7 +38,45 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
+.feit1{font-size: 15px; float: left;
+    overflow: auto;
+ background: rgba(255, 136, 0, 0.580);
+            width: 30%;
+            height: 82px;
+       padding:10px;}
+
+.feit2{ font-size:13px; float: right;
+    overflow: auto; 
+ background: rgba(255, 136, 0, 0.580);
+            width: 32%;
+            height: 90px;
+        padding:10px;}
+
+ .feit3{font-size:12px; margin-top:60px ;
+    overflow: auto;
+ background: rgba(255, 136, 0, 0.580);
+            width: 30%;
+            height: 82px;
+        padding:10px;}
+
+
+.slidez{ animation-name: slide;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    }
+@keyframes slide{
+0% {
+    transform: translateX(0px)}
+50% {
+    transform: translateX(600px) }
+100% {
+    transform: translateX(0px)}}
+            
+
+
+ img.zweefLinks {
     float: right;
     margin-left: 5px;
     width: 200px;
@@ -47,12 +88,16 @@ img.zweefLinks2 {
     width: 200px;
     height:80%;
     margin-right:5px;
-    margin-top:5px;
 }
   
+.leuke-feitjes{
+text-align: center;
+}
 .navigatie{ float:left;
 width:100px; height:300%; margin:20px;} 
  
+.hoop{font-weight: bold;}
+
 
 .smalltext {
     font-size: 0.7em;
