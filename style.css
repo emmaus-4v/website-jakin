@@ -122,6 +122,10 @@ img.zweefLinks4 {
     height:80%;
 }
 
+.liedje{background-color: #c8ff61; clear: left; text-align: center;}
+
+.introliedje{width: 55%; text-align: center; padding-left: 110px;}
+
 .leuke-feitjes{
 text-align: center;
 }
@@ -135,7 +139,13 @@ width:100px; height:300%; margin:20px;}
 .smalltext {
     font-size: 0.7em;
 }
-
+.ik-ben-er-klaar-voor{font-weight: bold; font-size: 2em;}
+.inleiding{text-align: center;}
+.de-start{background-color: rgb(255, 153, 0);}
+.de-mid{background-color:rgb(19, 233, 83);}
+.nickelodeon{background-color: rgb(0, 204, 255);}
+.het-concept{background-color: silver;}
+.het-eind{background-color: rgb(248, 73, 73)}
 
 a {
     color: rgb(230, 84, 84);
